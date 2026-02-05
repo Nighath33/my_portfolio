@@ -1,0 +1,127 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0d1117;
+    color: #c9d1d9;
+    transition: background 0.3s, color 0.3s;
+    text-align: center;
+}
+
+/* Sticky Navbar */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #161b22;
+    padding: 15px 30px;
+    position: fixed; /* Makes navbar sticky */
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Adds space below navbar to prevent content overlap */
+body {
+    padding-top: 80px;
+}
+
+/* Navbar Links */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background: #58a6ff;
+    color: #fff;
+}
+
+/* Sections */
+section {
+    padding: 80px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Headings with Different Colors */
+h1 {
+    color: #ffcc00; /* Gold */
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+h2 {
+    color: #58a6ff; /* Blue */
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+
+h3 {
+    color: #ff6b6b; /* Red */
+    font-size: 1.8rem;
+}
+
+/* Home Section */
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    flex-direction: column;
+}
+
+/* About Me */
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 80vh;
+}
+
+/* Projects */
+#projects {
+    padding: 50px 20px;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Internships */
+#internships {
+    padding: 50px 20px;
+}
+
+/* Skills */
+#skills {
+    padding: 50px 20px;
+}
+
+/* Contact */
+#contact {
+    padding: 50px;
+    background: #161b22;
+}
